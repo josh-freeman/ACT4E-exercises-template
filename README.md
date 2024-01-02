@@ -38,5 +38,9 @@ From the file tree to the left, right-click the file and select "open preview". 
 
 Now browse the Python files in `src/`. Verify that autocompletion works..
 
+### Sandbox
 
+We provide for you a sandbox, to be able to interact with test cases in a non-obfuscated way. To use it, first check that you have implementations of the objects of interest (e.g. `MyFiniteSet`) are in `act4e_solutions`.
 
+1. Run `cd src.`
+2. Run `python -m sandbox.FiniteRelationsProperties`, or `sandbox.FinitePosetRepresentation`, or another one that interests you.
